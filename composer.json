@@ -1,0 +1,23 @@
+{
+    "name": "wowworks/translation-google-sheet",
+    "description": "Tool for push/pull translation to google-sheets",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "google/apiclient": "^2.0",
+        "yiisoft/yii2": "2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wowworks",
+            "email": "it@wowworks.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wowworks\\TranslationGoogleSheet\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
